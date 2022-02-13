@@ -1,0 +1,79 @@
+* {
+    background-color:transparent;
+    margin:0;
+    
+}
+
+#start-to-explore-header{
+    display:flex;
+    flex-direction: column;
+    flex:1 1;
+    justify-content: center;
+    text-align: center;
+}
+
+.container{
+    justify-content: space-between;
+    gap: 50px;
+    background-color: transparent;
+}
+ 
+.flexbox-item{
+    display: flexbox;
+    background-color: snow;
+    padding: 20px;
+    border: 3px solid lightgray;
+    justify-content: center;
+    width:150px;
+    height:150px;
+    border-radius: 10px;
+    justify-content: center;
+}   
+
+.image-style{
+    background-color: transparent;
+    padding: 12px 25px
+}
+
+.icon-box-words{
+    background-color: transparent;
+    align-items: bottom;
+    font-size:20px;
+
+}
+
+#PaymentsBox{
+    background-color: blue;
+    color:white;
+    justify-content: center;
+}
+
+#dollar-sign{
+    background-color: white;
+    color:black;
+    justify-content: center;
+}
+
+#card-box-whole{
+    border: 3px solid lightgray;
+    border-radius:12px;
+
+}
+
+#card-left{
+    background-color: transparent;
+    border: 5px solid blueviolet;
+}
+#card-right{
+    background-color: blue;
+    border:5px solid blueviolet;
+}
+
+.text-card-list{
+    list-style-type:none;
+}
+
+h2{
+    margin-top: 8px;
+}
+
